@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.kardelen.exoplayer"
-        minSdk 23
+        minSdk 24
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -33,7 +33,13 @@ dependencies {
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'com.google.android.exoplayer:exoplayer:2.18.2'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.github.alexeyvasilyev:rtsp-client-android:2.0.6'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
+//allprojects {
+//    repositories {
+//        maven { url 'https://jitpack.io' }
+//    }
+//}
